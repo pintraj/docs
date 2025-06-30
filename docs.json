@@ -1,55 +1,81 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "School CRM Documentation",
+  "description": "Complete guide to School CRM - the comprehensive school management system",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Getting Started",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Introduction",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "account-creation"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Quick Start",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "quickstart",
+              "dashboard-overview"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Features",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Student Management",
             "pages": [
-              "api-reference/introduction"
+              "features/students/add-student",
+              "features/students/manage-student",
+              "features/students/student-profiles"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Staff Management",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "features/staff/add-staff",
+              "features/staff/manage-staff",
+              "features/staff/roles-permissions"
+            ]
+          },
+          {
+            "group": "Academic Management",
+            "pages": [
+              "features/academic/classes",
+              "features/academic/subjects",
+              "features/academic/grades"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Administration",
+        "groups": [
+          {
+            "group": "System Settings",
+            "pages": [
+              "admin/settings",
+              "admin/backup-restore",
+              "admin/security"
+            ]
+          },
+          {
+            "group": "Reports & Analytics",
+            "pages": [
+              "admin/reports/student-reports",
+              "admin/reports/academic-reports",
+              "admin/reports/financial-reports"
             ]
           }
         ]
@@ -58,19 +84,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "School CRM",
+          "href": "https://schoolcrm.live",
+          "icon": "graduation-cap"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Support",
+          "href": "mailto:support@schoolcrm.live",
+          "icon": "headset"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Demo",
+          "href": "https://schoolcrm.live/demo",
+          "icon": "play"
         }
       ]
     }
@@ -83,20 +109,60 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@schoolcrm.live"
+      },
+      {
+        "label": "Pricing",
+        "href": "https://schoolcrm.live/pricing"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Get Started",
+      "href": "https://schoolcrm.live/signup"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "x": "https://x.com/schoolcrm",
+      "facebook": "https://facebook.com/schoolcrm",
+      "linkedin": "https://linkedin.com/company/schoolcrm"
+    },
+    "links": [
+      {
+        "header": "Product",
+        "items": [
+          {
+            "label": "Features",
+            "href": "https://schoolcrm.live/features"
+          },
+          {
+            "label": "Pricing",
+            "href": "https://schoolcrm.live/pricing"
+          },
+          {
+            "label": "Demo",
+            "href": "https://schoolcrm.live/demo"
+          }
+        ]
+      },
+      {
+        "header": "Support",
+        "items": [
+          {
+            "label": "Documentation",
+            "href": "https://docs.schoolcrm.live"
+          },
+          {
+            "label": "Contact",
+            "href": "mailto:support@schoolcrm.live"
+          },
+          {
+            "label": "Status",
+            "href": "https://status.schoolcrm.live"
+          }
+        ]
+      }
+    ]
   }
 }
