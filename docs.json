@@ -18,7 +18,8 @@
             "group": "Introduction",
             "pages": [
               "index",
-              "account-creation"
+              "request-for-school",
+              "languages"
             ]
           },
           {
@@ -31,7 +32,7 @@
         ]
       },
       {
-        "tab": "Features",
+        "tab": "Teacher/Staff Application",
         "groups": [
           {
             "group": "Student Management",
@@ -60,7 +61,7 @@
         ]
       },
       {
-        "tab": "Administration",
+        "tab": "Student/Parent Application",
         "groups": [
           {
             "group": "System Settings",
@@ -69,22 +70,15 @@
               "admin/backup-restore",
               "admin/security"
             ]
-          },
-          {
-            "group": "Reports & Analytics",
-            "pages": [
-              "admin/reports/student-reports",
-              "admin/reports/academic-reports",
-              "admin/reports/financial-reports"
-            ]
           }
+          
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "School CRM",
+          "anchor": "Link to School CRM",
           "href": "https://schoolcrm.live",
           "icon": "graduation-cap"
         },
@@ -92,12 +86,8 @@
           "anchor": "Support",
           "href": "mailto:support@schoolcrm.live",
           "icon": "headset"
-        },
-        {
-          "anchor": "Demo",
-          "href": "https://schoolcrm.live/demo",
-          "icon": "play"
         }
+        
       ]
     }
   },
