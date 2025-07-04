@@ -60,15 +60,28 @@
           {
             "group": "Teachers",
             "pages": [
-              {
-                "group": "Teachers",
-                "pages": [
-                  
-                  "teacher/add-teacher",
-                  "teacher/manage-teacher",
-                  "teacher/bulk-upload"
-                ]
-              }
+              "teachers/class-section",
+              "teachers/students-details",
+              "teachers/time-table",
+              "teachers/holiday-list",
+              "teachers/create-lesson",
+              "teachers/create-topic",
+              "teachers/create-assignment",
+              "teachers/assignment-submission",
+              "teachers/add-attendance",
+              "teachers/view-attendance",
+              "teachers/month-wise",
+              "teachers/announcement",
+              "teachers/offline-exam-timetable",
+              "teachers/upload-exam-marks",
+              "teachers/bulk-upload-exam-marks",
+              "teachers/publish-exam-result",
+              "teachers/manage-online-exam",
+              "teachers/manage-question",
+              "teachers/apply-leave",
+              "teachers/leave-report",
+              "teachers/payslip",
+              "teachers/certificate"
             ]
           },
           {
@@ -242,6 +255,33 @@
       {
         "tab": "Teacher/Staff Application",
         "groups": [
+          {
+            "group": "Teachers/Staff Application",
+            "pages": [
+              "teachers/class-section",
+              "teachers/students-details",
+              "teachers/time-table",
+              "teachers/holiday-list",
+              "teachers/create-lesson",
+              "teachers/create-topic",
+              "teachers/create-assignment",
+              "teachers/assignment-submission",
+              "teachers/add-attendance",
+              "teachers/view-attendance",
+              "teachers/month-wise",
+              "teachers/announcement",
+              "teachers/offline-exam-timetable",
+              "teachers/upload-exam-marks",
+              "teachers/bulk-upload-exam-marks",
+              "teachers/publish-exam-result",
+              "teachers/manage-online-exam",
+              "teachers/manage-question",
+              "teachers/apply-leave",
+              "teachers/leave-report",
+              "teachers/payslip",
+              "teachers/certificate"
+            ]
+          },
           {
             "group": "Student Management",
             "pages": [
