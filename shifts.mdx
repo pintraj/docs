@@ -1,0 +1,223 @@
+---
+title: Shift Management
+description: "Manage staff shifts and scheduling for timely attendance in School CRM"
+---
+
+# Shift Management
+
+Shift management in School CRM allows you to organize staff schedules and ensure timely attendance. You can create different shifts for staff members based on their roles and responsibilities, helping maintain proper school operations throughout the day.
+
+## What are Shifts?
+
+Shifts define the working hours and schedules for different staff members. They help organize staff attendance, manage workload distribution, and ensure proper coverage during school hours.
+
+### Common Shift Types
+
+- **Morning Shift**: Early start for administrative and support staff
+- **Regular Shift**: Standard school hours for teachers and staff
+- **Afternoon Shift**: Extended hours for extracurricular activities
+- **Part-time Shift**: Flexible hours for part-time staff
+
+## Creating a New Shift
+
+### Step 1: Access Shift Management
+
+1. Navigate to **Academics** → **Shift Management**
+2. Click the **"Add New Shift"** button
+
+### Step 2: Configure Shift Details
+
+<CardGroup cols={2}>
+  <Card title="Basic Information" icon="clock">
+    - **Shift Name**: Enter a descriptive name (e.g., "Morning Shift", "Regular Shift")
+    - **Shift Code**: Create a unique identifier (e.g., "MORN", "REG")
+    - **Description**: Provide details about the shift purpose
+  </Card>
+  <Card title="Timing Configuration" icon="calendar">
+    - **Start Time**: Set the shift start time
+    - **End Time**: Set the shift end time
+    - **Break Duration**: Define break periods within the shift
+  </Card>
+</CardGroup>
+
+### Step 3: Set Shift Parameters
+
+#### Working Hours
+- **Total Hours**: Automatically calculated based on start and end times
+- **Break Times**: Define lunch and other break periods
+- **Flexible Hours**: Allow for slight variations in start/end times
+
+#### Staff Assignment
+- **Staff Types**: Specify which staff categories can be assigned
+- **Maximum Staff**: Set the maximum number of staff per shift
+- **Minimum Staff**: Define minimum required staff for the shift
+
+## Managing Existing Shifts
+
+### View All Shifts
+
+The shift management page displays all created shifts in a comprehensive table:
+
+| Shift Name | Code | Start Time | End Time | Staff Count | Status | Actions |
+|------------|------|------------|----------|-------------|--------|---------|
+| Morning Shift | MORN | 7:00 AM | 2:00 PM | 15 | Active | Edit, Delete |
+| Regular Shift | REG | 8:00 AM | 4:00 PM | 45 | Active | Edit, Delete |
+| Afternoon Shift | AFT | 12:00 PM | 8:00 PM | 8 | Active | Edit, Delete |
+
+### Edit Shift Details
+
+1. Click the **Edit** button next to the shift you want to modify
+2. Update the timing, staff assignments, or other parameters
+3. Click **Save Changes**
+
+<Callout type="info">
+  **Note**: Changes to shift timings may affect staff schedules and class arrangements.
+</Callout>
+
+### Delete Shift
+
+<Callout type="warning">
+  **Important**: Before deleting a shift, ensure no staff members are currently assigned to it.
+</Callout>
+
+1. Click the **Delete** button next to the shift
+2. Confirm the deletion in the popup dialog
+3. The shift will be permanently removed from the system
+
+## Shift Configuration Options
+
+### Time Management
+
+Configure detailed timing for each shift:
+
+#### Core Hours
+- **Start Time**: When staff should arrive
+- **End Time**: When staff can leave
+- **Grace Period**: Allowable late arrival time (e.g., 15 minutes)
+
+#### Break Periods
+- **Lunch Break**: Standard lunch break duration
+- **Short Breaks**: Coffee breaks or rest periods
+- **Flexible Breaks**: Allow staff to take breaks as needed
+
+### Staff Assignment Rules
+
+Define rules for assigning staff to shifts:
+
+#### Eligibility Criteria
+- **Staff Roles**: Which roles can be assigned to this shift
+- **Experience Level**: Minimum experience requirements
+- **Certifications**: Required certifications or qualifications
+
+#### Scheduling Rules
+- **Rotation**: How often staff rotate between shifts
+- **Overtime**: Rules for overtime and extended hours
+- **Substitution**: Procedures for shift substitutions
+
+## Shift Types and Use Cases
+
+### Morning Shift (Early Start)
+**Purpose**: Administrative tasks, preparation, early classes
+**Typical Hours**: 6:00 AM - 2:00 PM
+**Staff**: Administrators, support staff, early morning teachers
+
+### Regular Shift (Standard Hours)
+**Purpose**: Regular school operations, classes, activities
+**Typical Hours**: 8:00 AM - 4:00 PM
+**Staff**: Teachers, regular staff, administrative personnel
+
+### Afternoon Shift (Extended Hours)
+**Purpose**: After-school activities, evening classes, maintenance
+**Typical Hours**: 12:00 PM - 8:00 PM
+**Staff**: Activity coordinators, evening teachers, maintenance staff
+
+### Part-time Shift (Flexible Hours)
+**Purpose**: Part-time staff, specialists, consultants
+**Typical Hours**: Variable based on needs
+**Staff**: Part-time teachers, specialists, consultants
+
+## Best Practices
+
+### Shift Planning
+
+<Steps>
+  <Step title="Analyze Needs">
+    Assess your school's operational requirements and staff availability
+  </Step>
+  <Step title="Design Shifts">
+    Create shifts that optimize staff coverage and efficiency
+  </Step>
+  <Step title="Communicate Clearly">
+    Ensure all staff understand their shift requirements and expectations
+  </Step>
+  <Step title="Monitor and Adjust">
+    Regularly review shift effectiveness and make adjustments as needed
+  </Step>
+</Steps>
+
+### Staff Considerations
+
+- **Work-Life Balance**: Consider staff personal commitments and preferences
+- **Health and Safety**: Ensure shifts don't exceed safe working hours
+- **Fair Distribution**: Distribute shifts fairly among eligible staff
+- **Emergency Coverage**: Plan for emergency situations and staff absences
+
+## Integration with Other Features
+
+### Attendance Tracking
+
+Shifts integrate with the attendance system to:
+- Track staff arrival and departure times
+- Monitor late arrivals and early departures
+- Generate attendance reports by shift
+
+### Payroll Management
+
+Shift information is used for:
+- Calculating working hours for payroll
+- Determining overtime pay
+- Managing leave and absence tracking
+
+### Class Scheduling
+
+Shifts affect class scheduling by:
+- Determining teacher availability for classes
+- Influencing room allocation and timetables
+- Impacting extracurricular activity planning
+
+## Troubleshooting
+
+### Common Issues
+
+**Issue**: Staff cannot be assigned to shifts
+**Solution**: Check that the staff member meets the shift eligibility criteria
+
+**Issue**: Shift timings conflicting with classes
+**Solution**: Review class schedules and adjust shift timings accordingly
+
+**Issue**: Insufficient staff coverage
+**Solution**: Reassess shift assignments or create additional shifts
+
+**Issue**: Attendance tracking not working
+**Solution**: Verify that shift timings are properly configured in the attendance system
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Staff Management" icon="users">
+    Assign staff to appropriate shifts
+  </Card>
+  <Card title="Attendance Tracking" icon="calendar-check">
+    Monitor staff attendance by shift
+  </Card>
+  <Card title="Class Scheduling" icon="chalkboard">
+    Schedule classes based on staff availability
+  </Card>
+  <Card title="Payroll Management" icon="credit-card">
+    Calculate pay based on shift hours
+  </Card>
+</CardGroup>
+
+<Button href="/class" variant="primary">
+  Next: Class Management
+</Button> 

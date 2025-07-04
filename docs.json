@@ -12,21 +12,229 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
+        "tab": "Academics",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "Academy",
             "pages": [
-              "index",
-              "request-for-school",
-              "languages"
+              {
+                "group": "Academy",
+                "pages": [
+                  "index",
+                  "request-for-school",
+                  "languages",
+                  "medium",
+                  "sections",
+                  "subjects",
+                  "semester",
+                  "stream",
+                  "shifts",
+                  "class",
+                  "class-subject",
+                  "class-section-teacher",
+                  "elective-subject",
+                  "transfer-students",
+                  "list-students-roll-numbers"
+                ]
+              }
+             
             ]
           },
           {
-            "group": "Quick Start",
+            "group": "Student",
             "pages": [
-              "quickstart",
-              "dashboard-overview"
+              {
+                "group": "Student",
+                "pages": [
+                  "student/create-a-student",
+                  "student/manage-students",
+                  "student/list-students",
+                  "student/password-reset",
+                  "student/add-bulk-data",
+                  "student/update-profile-images",
+                  "student/guardian-profile"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Teachers",
+            "pages": [
+              {
+                "group": "Teachers",
+                "pages": [
+                  
+                  "teacher/add-teacher",
+                  "teacher/manage-teacher",
+                  "teacher/bulk-upload"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Timetable",
+            "pages": [
+              "timetable/create-timetable",
+              "timetable/teacher-timetable"
+            ]
+          },
+          {
+            "group": "Holiday",
+            "pages": [
+              "holiday/manage-holiday"
+            ]
+          },
+          {
+            "group": "Students Assignment",
+            "pages": [
+              "students-assignment/manage-assignment"
+            ]
+          },
+          {
+            "group": "Slider",
+            "pages": [
+              "slider/create-slider",
+              "slider/manage-slider"
+            ]
+          },
+          {
+            "group": "Notification",
+            "pages": [
+              "notification/share-notification"
+            ]
+          },
+          {
+            "group": "Attendance",
+            "pages": [
+              "attendance/view-attendance",
+              "attendance/monthly-attendance"
+            ]
+          },
+          {
+            "group": "Announcement",
+            "pages": [
+              "announcement/create-announcement"
+            ]
+          },
+          {
+            "group": "Offline Exam",
+            "pages": [
+              "offline-exam/create-exam",
+              "offline-exam/manage-exam",
+              "offline-exam/unpublished-exam",
+              "offline-exam/published-exam",
+              "offline-exam/exam-grade"
+            ]
+          },
+          {
+            "group": "Online Exam",
+            "pages": [
+              "online-exam/create-online-exam",
+              "online-exam/manage-online-exam",
+              "online-exam/add-questions"
+            ]
+          },
+          {
+            "group": "Fee",
+            "pages": [
+              "fee/manage-fee",
+              "fee/student-fees",
+              "fee/fees-transaction-logs"
+            ]
+          },
+          {
+            "group": "Reports",
+            "pages": [
+              "reports/student-report",
+              "reports/exam-reports"
+            ]
+          },
+          {
+            "group": "Expenses",
+            "pages": [
+              "expenses/create-category",
+              "expenses/create-expense",
+              "expenses/list-expense"
+            ]
+          },
+          {
+            "group": "Payroll",
+            "pages": [
+              "payroll/manage-payroll",
+              "payroll/create-payroll",
+              "payroll/list-payroll"
+            ]
+          },
+          {
+            "group": "Gallery",
+            "pages": [
+              "gallery/add-image",
+              "gallery/edit-delete-image"
+            ]
+          },
+          {
+            "group": "Certificate & ID Card",
+            "pages": [
+              "certificate-and-id-card/certificate-template",
+              "certificate-and-id-card/list-of-certificates",
+              "certificate-and-id-card/student-certificates",
+              "certificate-and-id-card/staff-certificate",
+              "certificate-and-id-card/id-card-settings",
+              "certificate-and-id-card/student-id-card",
+              "certificate-and-id-card/staff-id-card"
+            ]
+          },
+          {
+            "group": "Staff Leave",
+            "pages": [
+              "staff-leave/staff-leaves",
+              "staff-leave/leave-report"
+            ]
+          },
+          {
+            "group": "Subscription",
+            "pages": [
+              "subscription/subscription",
+              "subscription/plans",
+              "subscription/addons"
+            ]
+          },
+          {
+            "group": "Contact",
+            "pages": [
+              "contact/contact"
+            ]
+          },
+          {
+            "group": "Web Settings",
+            "pages": [
+              "web-settings/theme-color",
+              "web-settings/about-us",
+              "web-settings/education",
+              "web-settings/announcement",
+              "web-settings/counter",
+              "web-settings/expert-teachers",
+              "web-settings/gallery",
+              "web-settings/our-mission",
+              "web-settings/contact-us",
+              "web-settings/faq",
+              "web-settings/online-registration",
+              "web-settings/footer"
+            ]
+          },
+          {
+            "group": "System Settings",
+            "pages": [
+              "system-settings/general-settings",
+              "system-settings/session-year",
+              "system-settings/leave-settings",
+              "system-settings/online-exam-terms",
+              "system-settings/email-template",
+              "system-settings/payment-settings",
+              "system-settings/third-party-api",
+              "system-settings/refund-cancellation",
+              "system-settings/privacy-policy",
+              "system-settings/terms-and-conditions"
             ]
           }
         ]
@@ -37,24 +245,39 @@
           {
             "group": "Student Management",
             "pages": [
-              "features/students/add-student",
-              "features/students/manage-student",
+              {
+                "group": "Student Actions",
+                "pages": [
+                  "features/students/add-student",
+                  "features/students/manage-student"
+                ]
+              },
               "features/students/student-profiles"
             ]
           },
           {
             "group": "Staff Management",
             "pages": [
-              "features/staff/add-staff",
-              "features/staff/manage-staff",
+              {
+                "group": "Staff Actions",
+                "pages": [
+                  "features/staff/add-staff",
+                  "features/staff/manage-staff"
+                ]
+              },
               "features/staff/roles-permissions"
             ]
           },
           {
             "group": "Academic Management",
             "pages": [
-              "features/academic/classes",
-              "features/academic/subjects",
+              {
+                "group": "Academic Actions",
+                "pages": [
+                  "features/academic/classes",
+                  "features/academic/subjects"
+                ]
+              },
               "features/academic/grades"
             ]
           }
@@ -66,12 +289,16 @@
           {
             "group": "System Settings",
             "pages": [
-              "admin/settings",
-              "admin/backup-restore",
+              {
+                "group": "Admin Actions",
+                "pages": [
+                  "admin/settings",
+                  "admin/backup-restore"
+                ]
+              },
               "admin/security"
             ]
           }
-          
         ]
       }
     ],
@@ -87,7 +314,6 @@
           "href": "mailto:support@schoolcrm.live",
           "icon": "headset"
         }
-        
       ]
     }
   },

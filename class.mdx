@@ -1,0 +1,266 @@
+---
+title: Class Management
+description: "Create and manage classes with medium selection, streams, shifts, and sections in School CRM"
+---
+
+# Class Management
+
+Class management is a core feature of School CRM that allows you to create and organize classes based on different mediums, streams, shifts, and sections. This system helps you structure your academic programs effectively and manage student groups efficiently.
+
+## What are Classes?
+
+Classes in School CRM represent organized groups of students studying together under specific academic parameters. Each class is defined by its medium of instruction, stream, shift, and section, creating a structured learning environment.
+
+### Class Components
+
+- **Medium**: Language of instruction (English, Hindi, etc.)
+- **Stream**: Academic specialization (Science, Commerce, Arts)
+- **Shift**: Timing schedule (Morning, Afternoon, etc.)
+- **Section**: Subdivision within a class (A, B, C, etc.)
+
+## Creating a New Class
+
+### Step 1: Access Class Management
+
+1. Navigate to **Academics** → **Class Management**
+2. Click the **"Add New Class"** button
+
+### Step 2: Select Medium
+
+Choose the medium of instruction for the class:
+
+<CardGroup cols={3}>
+  <Card title="English Medium" icon="globe">
+    Primary language of instruction is English
+  </Card>
+  <Card title="Hindi Medium" icon="language">
+    Primary language of instruction is Hindi
+  </Card>
+  <Card title="Bilingual" icon="translate">
+    Instruction in multiple languages
+  </Card>
+</CardGroup>
+
+### Step 3: Configure Class Details
+
+<CardGroup cols={2}>
+  <Card title="Basic Information" icon="info-circle">
+    - **Class Name**: Enter a descriptive name (e.g., "Grade 10 Science A")
+    - **Class Code**: Create a unique identifier (e.g., "10-SCI-A")
+    - **Academic Year**: Select the current academic year
+    - **Grade Level**: Choose the appropriate grade level
+  </Card>
+  <Card title="Advanced Settings" icon="settings">
+    - **Stream**: Select academic stream (optional)
+    - **Shift**: Choose timing schedule (optional)
+    - **Section**: Assign section letter or number
+    - **Capacity**: Set maximum number of students
+  </Card>
+</CardGroup>
+
+### Step 4: Set Class Parameters
+
+#### Academic Configuration
+- **Subjects**: Assign subjects to the class
+- **Teachers**: Assign class teachers and subject teachers
+- **Schedule**: Set class timings and periods
+- **Room**: Assign classroom or virtual meeting space
+
+#### Student Management
+- **Enrollment Period**: Define when students can enroll
+- **Transfer Rules**: Set policies for student transfers
+- **Attendance Requirements**: Define attendance policies
+
+## Managing Existing Classes
+
+### View All Classes
+
+The class management page displays all created classes in a comprehensive table:
+
+| Class Name | Medium | Stream | Shift | Section | Students | Status | Actions |
+|------------|--------|--------|-------|---------|----------|--------|---------|
+| Grade 10 Science A | English | Science | Morning | A | 35 | Active | Edit, Delete |
+| Grade 11 Commerce B | English | Commerce | Regular | B | 28 | Active | Edit, Delete |
+| Grade 9 Arts C | Hindi | Arts | Afternoon | C | 22 | Active | Edit, Delete |
+
+### Edit Class Details
+
+1. Click the **Edit** button next to the class you want to modify
+2. Update the required information
+3. Click **Save Changes**
+
+<Callout type="info">
+  **Note**: Changes to class configuration may affect student assignments and schedules.
+</Callout>
+
+### Delete Class
+
+<Callout type="warning">
+  **Important**: Before deleting a class, ensure all students have been transferred to other classes.
+</Callout>
+
+1. Click the **Delete** button next to the class
+2. Confirm the deletion in the popup dialog
+3. The class will be permanently removed from the system
+
+## Class Configuration Options
+
+### Medium Selection
+
+Choose the appropriate medium of instruction:
+
+#### English Medium
+- **Primary Language**: English
+- **Subjects**: All subjects taught in English
+- **Additional Languages**: Hindi/Foreign languages as additional subjects
+
+#### Hindi Medium
+- **Primary Language**: Hindi
+- **Subjects**: All subjects taught in Hindi
+- **Additional Languages**: English as a compulsory subject
+
+#### Bilingual Medium
+- **Primary Languages**: Both English and Hindi
+- **Subject Distribution**: Mix of languages based on subject
+- **Language Policy**: Clear guidelines for language usage
+
+### Stream Assignment (Optional)
+
+If your school uses academic streams:
+
+- **Science Stream**: Mathematics, Physics, Chemistry, Biology
+- **Commerce Stream**: Business Studies, Accountancy, Economics
+- **Arts Stream**: Literature, History, Geography, Political Science
+- **No Stream**: General education without specialization
+
+### Shift Assignment (Optional)
+
+Assign timing schedules:
+
+- **Morning Shift**: Early classes (6:00 AM - 2:00 PM)
+- **Regular Shift**: Standard hours (8:00 AM - 4:00 PM)
+- **Afternoon Shift**: Late classes (12:00 PM - 8:00 PM)
+- **No Specific Shift**: Flexible timing
+
+### Section Management
+
+Create and manage sections within classes:
+
+#### Section Naming
+- **Alphabetic**: A, B, C, D, etc.
+- **Numerical**: 1, 2, 3, 4, etc.
+- **Descriptive**: Alpha, Beta, Gamma, etc.
+
+#### Section Configuration
+- **Capacity**: Maximum students per section
+- **Teachers**: Assign class teachers to sections
+- **Rooms**: Assign specific classrooms to sections
+
+## Class Types and Examples
+
+### Primary Classes (Grades 1-5)
+**Medium**: Usually English or Hindi
+**Stream**: No streams at this level
+**Sections**: A, B, C (typically 3-4 sections)
+**Focus**: Basic education and skill development
+
+### Middle Classes (Grades 6-8)
+**Medium**: English or Hindi
+**Stream**: Introduction to basic streams
+**Sections**: A, B, C, D (4-5 sections)
+**Focus**: Subject specialization introduction
+
+### Secondary Classes (Grades 9-10)
+**Medium**: English or Hindi
+**Stream**: Science, Commerce, Arts
+**Sections**: A, B, C (3-4 sections per stream)
+**Focus**: Stream-based specialization
+
+### Senior Secondary (Grades 11-12)
+**Medium**: English or Hindi
+**Stream**: Advanced Science, Commerce, Arts
+**Sections**: A, B (2-3 sections per stream)
+**Focus**: Career-oriented education
+
+## Best Practices
+
+### Class Organization
+
+<Steps>
+  <Step title="Plan Structure">
+    Design your class structure based on school capacity and requirements
+  </Step>
+  <Step title="Set Clear Parameters">
+    Define medium, stream, shift, and section requirements clearly
+  </Step>
+  <Step title="Balance Distribution">
+    Ensure even distribution of students across sections
+  </Step>
+  <Step title="Regular Review">
+    Periodically review and adjust class configurations as needed
+  </Step>
+</Steps>
+
+### Naming Conventions
+
+- **Consistent Format**: Use a standard format (e.g., "Grade 10 Science A")
+- **Clear Identification**: Include all relevant parameters in the name
+- **Easy Recognition**: Make names easily recognizable for staff and students
+- **Scalable System**: Design names that can accommodate future growth
+
+## Integration with Other Features
+
+### Student Management
+Classes integrate with student management to:
+- Assign students to appropriate classes
+- Track student progress within classes
+- Manage student transfers between classes
+
+### Teacher Assignment
+Class information is used for:
+- Assigning teachers to specific classes
+- Managing teacher workloads
+- Scheduling teacher availability
+
+### Academic Planning
+Classes support academic planning by:
+- Organizing subject distribution
+- Managing curriculum implementation
+- Coordinating examination schedules
+
+## Troubleshooting
+
+### Common Issues
+
+**Issue**: Cannot create class with selected parameters
+**Solution**: Check that all required fields are filled and parameters are valid
+
+**Issue**: Students cannot be assigned to class
+**Solution**: Verify class capacity and enrollment status
+
+**Issue**: Class schedule conflicts
+**Solution**: Review teacher availability and room assignments
+
+**Issue**: Section capacity exceeded
+**Solution**: Either increase section capacity or create additional sections
+
+## Related Features
+
+<CardGroup cols={2}>
+  <Card title="Student Assignment" icon="user-plus">
+    Assign students to classes and sections
+  </Card>
+  <Card title="Teacher Management" icon="users">
+    Assign teachers to classes and subjects
+  </Card>
+  <Card title="Subject Management" icon="book-open">
+    Manage subjects within classes
+  </Card>
+  <Card title="Schedule Management" icon="calendar">
+    Create and manage class schedules
+  </Card>
+</CardGroup>
+
+<Button href="/class-subject" variant="primary">
+  Next: Class Subject Management
+</Button> 
