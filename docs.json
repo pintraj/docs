@@ -51,7 +51,7 @@
                   "student/list-students",
                   "student/password-reset",
                   "student/add-bulk-data",
-                  "student/update-profile-images",
+                  "student/upload-profile-images",
                   "student/guardian-profile"
                 ]
               }
@@ -60,28 +60,9 @@
           {
             "group": "Teachers",
             "pages": [
-              "teachers/class-section",
-              "teachers/students-details",
-              "teachers/time-table",
-              "teachers/holiday-list",
-              "teachers/create-lesson",
-              "teachers/create-topic",
-              "teachers/create-assignment",
-              "teachers/assignment-submission",
-              "teachers/add-attendance",
-              "teachers/view-attendance",
-              "teachers/month-wise",
-              "teachers/announcement",
-              "teachers/offline-exam-timetable",
-              "teachers/upload-exam-marks",
-              "teachers/bulk-upload-exam-marks",
-              "teachers/publish-exam-result",
-              "teachers/manage-online-exam",
-              "teachers/manage-question",
-              "teachers/apply-leave",
-              "teachers/leave-report",
-              "teachers/payslip",
-              "teachers/certificate"
+              "teacher/add-teacher",
+              "teacher/bulk-upload",
+              "teacher/manage-teacher"
             ]
           },
           {
@@ -258,69 +239,30 @@
           {
             "group": "Teachers/Staff Application",
             "pages": [
-              "teachers/class-section",
-              "teachers/students-details",
-              "teachers/time-table",
-              "teachers/holiday-list",
-              "teachers/create-lesson",
-              "teachers/create-topic",
-              "teachers/create-assignment",
-              "teachers/assignment-submission",
-              "teachers/add-attendance",
-              "teachers/view-attendance",
-              "teachers/month-wise",
-              "teachers/announcement",
-              "teachers/offline-exam-timetable",
-              "teachers/upload-exam-marks",
-              "teachers/bulk-upload-exam-marks",
-              "teachers/publish-exam-result",
-              "teachers/manage-online-exam",
-              "teachers/manage-question",
-              "teachers/apply-leave",
-              "teachers/leave-report",
-              "teachers/payslip",
-              "teachers/certificate"
+              "teachers-staff-app/class-section",
+              "teachers-staff-app/students-details",
+              "teachers-staff-app/time-table",
+              "teachers-staff-app/holiday-list",
+              "teachers-staff-app/create-lesson",
+              "teachers-staff-app/create-topic",
+              "teachers-staff-app/create-assignment",
+              "teachers-staff-app/assignment-submission",
+              "teachers-staff-app/add-attendance",
+              "teachers-staff-app/view-attendance",
+              "teachers-staff-app/month-wise",
+              "teachers-staff-app/announcement",
+              "teachers-staff-app/offline-exam-timetable",
+              "teachers-staff-app/upload-exam-marks",
+              "teachers-staff-app/bulk-upload-exam-marks",
+              "teachers-staff-app/publish-exam-result",
+              "teachers-staff-app/manage-online-exam",
+              "teachers-staff-app/manage-question",
+              "teachers-staff-app/apply-leave",
+              "teachers-staff-app/leave-report",
+              "teachers-staff-app/payslip",
+              "teachers-staff-app/certificate"
             ]
-          },
-          {
-            "group": "Student Management",
-            "pages": [
-              {
-                "group": "Student Actions",
-                "pages": [
-                  "features/students/add-student",
-                  "features/students/manage-student"
-                ]
-              },
-              "features/students/student-profiles"
-            ]
-          },
-          {
-            "group": "Staff Management",
-            "pages": [
-              {
-                "group": "Staff Actions",
-                "pages": [
-                  "features/staff/add-staff",
-                  "features/staff/manage-staff"
-                ]
-              },
-              "features/staff/roles-permissions"
-            ]
-          },
-          {
-            "group": "Academic Management",
-            "pages": [
-              {
-                "group": "Academic Actions",
-                "pages": [
-                  "features/academic/classes",
-                  "features/academic/subjects"
-                ]
-              },
-              "features/academic/grades"
-            ]
-          }
+          }   
         ]
       },
       {

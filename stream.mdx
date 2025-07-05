@@ -3,10 +3,6 @@ title: Stream Management
 description: "Manage academic streams such as Science, Commerce, and Arts in School CRM"
 ---
 
-# Stream Management
-
-Academic streams are the foundation of your school's curriculum structure. In School CRM, you can create and manage different academic streams such as **Science**, **Commerce**, and **Arts** to organize your students and classes effectively.
-
 ## What are Academic Streams?
 
 Academic streams represent the different educational pathways or specializations that students can choose from. Each stream typically has its own set of subjects, curriculum requirements, and career focus areas.
@@ -23,6 +19,9 @@ Academic streams represent the different educational pathways or specializations
 
 1. Navigate to **Academics** → **Stream Management**
 2. Click the **"Add New Stream"** button
+<Frame>
+  <img src="/images/steam.png" alt="Stream Management Interface" />
+</Frame>
 
 ### Step 2: Fill Stream Details
 
@@ -41,15 +40,7 @@ Academic streams represent the different educational pathways or specializations
 
 ### Step 3: Configure Stream Settings
 
-#### Academic Requirements
-- **Minimum Subjects**: Set the minimum number of subjects required
-- **Core Subjects**: Define mandatory subjects for the stream
-- **Elective Subjects**: Specify optional subjects students can choose
 
-#### Career Guidance
-- **Career Paths**: Add potential career options for this stream
-- **Higher Education**: List relevant college/university programs
-- **Industry Focus**: Specify industries this stream prepares students for
 
 ## Managing Existing Streams
 
@@ -83,45 +74,7 @@ The stream management page displays all created streams in a table format:
 2. Confirm the deletion in the popup dialog
 3. The stream will be permanently removed from the system
 
-## Stream Configuration Options
 
-### Subject Assignment
-
-Assign subjects to streams to ensure proper curriculum alignment:
-
-1. Go to **Stream Details** → **Subjects**
-2. Click **"Add Subject"**
-3. Select subjects from the available list
-4. Set subject type (Core/Elective)
-5. Save the configuration
-
-### Grade Level Association
-
-Define which grade levels can access each stream:
-
-- **Primary Grades**: Usually no streams
-- **Middle Grades**: Basic stream introduction
-- **High School**: Full stream specialization
-- **Senior Secondary**: Advanced stream options
-
-## Best Practices
-
-### Stream Organization
-
-<Steps>
-  <Step title="Plan Your Streams">
-    Define clear academic pathways that align with your school's mission
-  </Step>
-  <Step title="Set Clear Requirements">
-    Establish minimum subject requirements and core curriculum
-  </Step>
-  <Step title="Regular Review">
-    Periodically review and update stream configurations
-  </Step>
-  <Step title="Student Guidance">
-    Provide clear information about each stream to help students choose
-  </Step>
-</Steps>
 
 ### Naming Conventions
 
@@ -129,35 +82,7 @@ Define which grade levels can access each stream:
 - Create consistent codes (e.g., "SCI-MATH", "COM-ACC")
 - Include grade level indicators if needed (e.g., "Science-11", "Commerce-12")
 
-## Troubleshooting
 
-### Common Issues
-
-**Issue**: Students cannot be assigned to streams
-**Solution**: Ensure the stream is active and has associated grade levels
-
-**Issue**: Subjects not appearing in stream
-**Solution**: Check that subjects are properly assigned to the stream
-
-**Issue**: Stream deletion failing
-**Solution**: Remove all students and classes from the stream before deletion
-
-## Related Features
-
-<CardGroup cols={2}>
-  <Card title="Class Management" icon="chalkboard">
-    Create classes based on streams
-  </Card>
-  <Card title="Subject Management" icon="book-open">
-    Manage subjects within streams
-  </Card>
-  <Card title="Student Assignment" icon="user-plus">
-    Assign students to appropriate streams
-  </Card>
-  <Card title="Academic Planning" icon="calendar">
-    Plan curriculum based on streams
-  </Card>
-</CardGroup>
 
 <Button href="/shifts" variant="primary">
   Next: Shift Management
